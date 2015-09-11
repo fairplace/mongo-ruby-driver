@@ -23,7 +23,7 @@ describe Mongo::Address::IPv4 do
     end
   end
 
-  describe '#initialize' do
+  describe "#initialize" do
 
     context 'when a port is provided' do
 
